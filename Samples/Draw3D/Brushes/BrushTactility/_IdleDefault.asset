@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd7041f6cba743259774287211ca241f, type: 3}
+  m_Name: _IdleDefault
+  m_EditorClassIdentifier: 
+  thumbToIndexWeight: 0.5
+  staticPinchPointToPalmWeight: 0.5
+  useStrengthPulse: 0
+  strengthPulseActiveAmplitudeRange: {x: 90, y: 100}
+  strengthPulseActiveTimeRange: {x: 0.5, y: 1}
+  strengthPulseDisabledAmplitudeRange: {x: 0, y: 10}
+  strengthPulseDisabledTimeRange: {x: 0, y: 0.1}
+  useTactilityBounce: 1
+  tactilityBounceSpeedRange: {x: 3, y: 5}
+  tactilityBounceExtentTimes: {x: 0, y: 1}
+  tactilityBounceStartTime: 0.5

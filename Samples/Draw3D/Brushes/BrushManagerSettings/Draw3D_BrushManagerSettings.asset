@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e024313a16440f8d2d1c37dcb37313, type: 3}
+  m_Name: Draw3D_BrushManagerSettings
+  m_EditorClassIdentifier: 
+  _brushes:
+  - {fileID: 11400000, guid: 90b3e12000f622845985ac36a2510fc3, type: 2}
+  - {fileID: 11400000, guid: 4ac4b7c866cab6a42935dc9b7aca79db, type: 2}
+  - {fileID: 11400000, guid: 9271430868f46364d90ccdcc1b0a2078, type: 2}
+  - {fileID: 11400000, guid: 9d53bab2bedbbeb419be5a61e94497ea, type: 2}
+  - {fileID: 11400000, guid: 3c44f398bb071be4ba5189c942d4aaac, type: 2}
+  _defaultBrushIndex: 0
+  _eraserSampleMinTime: 0.001
+  _eraserSampleMinDistance: 0.05
+  _eraserSampleRadius: 0.05
