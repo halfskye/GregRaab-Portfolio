@@ -19,6 +19,7 @@ Here are the projects I developed during various Ludum Dare Game Jams. Each fold
 - [LD46](https://github.com/halfskye/LD46)
 - [LD45](https://github.com/halfskye/LD45)
 - [LD44](https://github.com/halfskye/LD44)
+- https://github.com/halfskye/LD43
 
 ## Professional Work Samples
 
