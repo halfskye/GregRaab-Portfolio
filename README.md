@@ -6,8 +6,16 @@ Welcome to my portfolio! This repository showcases my work as a Senior Software 
 
 ## Contents
 
-- [Ludum Dare Game Jams](#ludum-dare-game-jams)
 - [Professional Work Samples](#professional-work-samples)
+- [Ludum Dare Game Jams](#ludum-dare-game-jams)
+
+## Professional Work Samples
+
+This section contains samples of my professional work. Each folder includes relevant files and code snippets along with a README file providing context and details.
+
+- [VR/AR/MR - Networked 3D Drawing](Samples/Draw3D)
+- [VR/AR/MR - Networked Meta Avatars & ReadyPlayerMe Avatars](Samples/Avatar)
+- [VR/AR/MR - Networked Chess](Samples/Chess)
 
 ## Ludum Dare Game Jams
 
@@ -25,11 +33,3 @@ Here are the projects I developed during various Ludum Dare Game Jams. Each fold
 - [LD38 - "A Small World" — _Slice of Life_](https://github.com/halfskye/LD38)
 - [LD37 - "One Room" — _Santaur's Workshop_](https://github.com/halfskye/LD37)
 - [LD37 Practice](https://github.com/halfskye/LD37_Practice)
-
-## Professional Work Samples
-
-This section contains samples of my professional work. Each folder includes relevant files and code snippets along with a README file providing context and details.
-
-- [VR/AR/MR - Networked 3D Drawing](Samples/Draw3D)
-- [VR/AR/MR - Networked Meta Avatars & ReadyPlayerMe Avatars](Samples/Avatar)
-- [VR/AR/MR - Networked Chess](Samples/Chess)
