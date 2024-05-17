@@ -30,6 +30,6 @@ Here are the projects I developed during various Ludum Dare Game Jams. Each fold
 
 This section contains samples of my professional work. Each folder includes relevant files and code snippets along with a README file providing context and details.
 
-- [Draw3D](Samples/Draw3D)
-- [Avatar](Samples/Avatar)
-- [Chess](Samples/Chess)
+- [VR/AR/MR - Networked 3D Drawing](Samples/Draw3D)
+- [VR/AR/MR - Networked Meta Avatars & ReadyPlayerMe Avatars](Samples/Avatar)
+- [VR/AR/MR - Networked Chess](Samples/Chess)
