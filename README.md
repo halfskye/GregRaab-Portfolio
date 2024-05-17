@@ -30,7 +30,6 @@ Here are the projects I developed during various Ludum Dare Game Jams. Each fold
 
 This section contains samples of my professional work. Each folder includes relevant files and code snippets along with a README file providing context and details.
 
-- [Emerge](Emerge)
-- [Rec Room](RecRoom)
-- [Ember Entertainment](EmberEntertainment)
-- [Camouflaj](Camouflaj)
+- [Draw3D](Samples/Draw3D)
+- [Avatar](Samples/Avatar)
+- [Chess](Samples/Chess)
