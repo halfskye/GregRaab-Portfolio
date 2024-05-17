@@ -13,9 +13,12 @@ Welcome to my portfolio! This repository showcases my work as a Senior Software 
 
 Here are the projects I developed during various Ludum Dare Game Jams. Each folder contains the full source code and a README file describing the project.
 
-- [LD51](LudumDare/LD51)
-- [LD48](LudumDare/LD48)
-- [LD47](LudumDare/LD47)
+- [LD51](https://github.com/halfskye/LD51)
+- [LD48](https://github.com/halfskye/LD48)
+- [LD47](https://github.com/halfskye/LD47)
+- [LD46](https://github.com/halfskye/LD46)
+- [LD45](https://github.com/halfskye/LD45)
+- [LD44](https://github.com/halfskye/LD44)
 
 ## Professional Work Samples
 
