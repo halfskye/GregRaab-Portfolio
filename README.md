@@ -16,6 +16,8 @@ This section contains samples of my professional work. Each folder includes rele
 - [VR/AR/MR - Networked 3D Drawing](Samples/Draw3D)
 - [VR/AR/MR - Networked Meta Avatars & ReadyPlayerMe Avatars](Samples/Avatar)
 - [VR/AR/MR - Networked Chess](Samples/Chess)
+- [VR/AR/MR - Interaction / Targeting](Samples/Interaction)
+- [Utilities](Samples/Utilities)
 
 ## Ludum Dare Game Jams
 
