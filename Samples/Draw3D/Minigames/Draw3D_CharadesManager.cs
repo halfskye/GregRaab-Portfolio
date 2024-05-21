@@ -22,7 +22,7 @@ namespace Draw3D.Minigames
         }
         [Networked(OnChanged = nameof(OnStateChanged))] public State CurrentState { get; private set; } = State.SELECT_PLAYER;
 
-        private const int MAX_CIRCLE_SIZE = 8; //@TODO: Retrieve this from Emerge Core
+        private const int MAX_CIRCLE_SIZE = 8;
         [Networked, Capacity(MAX_CIRCLE_SIZE)] public NetworkLinkedList<PlayerRef> SelectedPlayers { get; }
         [Networked(OnChanged = nameof(OnCurrentPlayerChanged))]
         public PlayerRef CurrentPlayer { get; private set; }
@@ -196,7 +196,7 @@ namespace Draw3D.Minigames
         {
             if (IsCurrentPlayer)
             {
-                RPC_SendCurrentPlayerName(EmergeCloud.CurrentUser.FirstName);
+                RPC_SendCurrentPlayerName(Cloud.CurrentUser.FirstName);
                 SetPromptTexts();
                 WatchUI.SetStatusActiveWithText($"Pick one:");
             }

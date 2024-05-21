@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using Emerge.SDK.Core.Tracking;
+using Tracking;
 
 public class GestureDetectionHandFinder : MonoBehaviour
 {
