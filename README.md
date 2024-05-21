@@ -18,6 +18,7 @@ This section contains samples of my professional work. Each folder includes rele
 - [VR/AR/MR - Networked Chess](Samples/Chess)
 - [VR/AR/MR - Interaction / Targeting](Samples/Interaction)
 - [Utilities](Samples/Utilities)
+- [Normcore](Samples/Normcore)
 
 ## Ludum Dare Game Jams
 
