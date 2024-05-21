@@ -1,12 +1,11 @@
-﻿using Emerge.Home.Experiments.Draw3D.Brushes;
-using Emerge.Home.Experiments.Draw3D.Palettes;
-using Emerge.Home.TempUtils;
-using Emerge.SDK.Core.Tracking;
+﻿using Draw3D.Brushes;
+using Draw3D.Palettes;
+using Tracking;
 using UnityEngine;
 using XRTK.Extensions;
 using static GestureDetectionHandFinder;
 
-namespace Emerge.Home.Experiments.Draw3D.GestureDetection.Gestures
+namespace Draw3D.GestureDetection.Gestures
 {
     public class GestureDetectorActiveStroke : BaseGestureDetectorDraw3D
     {

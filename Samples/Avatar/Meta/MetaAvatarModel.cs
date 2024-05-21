@@ -1,7 +1,7 @@
 using System;
 using Normal.Realtime;
 
-namespace Emerge.Connect.Avatar.Meta.Models
+namespace Avatar.Meta.Models
 {
     [RealtimeModel]
     public partial class MetaAvatarModel

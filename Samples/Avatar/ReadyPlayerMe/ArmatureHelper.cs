@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Emerge.SDK.Core.Tracking;
+using Tracking;
 using Oculus.Avatar2;
 using UnityEngine;
 
-namespace Emerge.Connect.Avatar.ReadyPlayerMe
+namespace Avatar.ReadyPlayerMe
 {
     public class ArmatureHelper : MonoBehaviour
     {

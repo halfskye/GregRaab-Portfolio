@@ -1,7 +1,7 @@
 using System;
 using Oculus.Avatar2;
 
-namespace Emerge.Connect.Avatar.Meta
+namespace Avatar.Meta
 {
     /**
  * 

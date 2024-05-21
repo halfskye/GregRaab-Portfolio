@@ -1,14 +1,14 @@
 ﻿using System.Linq;
-using Emerge.Home.Cloud;
-using Emerge.Home.Experiments.Draw3D.Prompts;
-using Emerge.Home.Experiments.Draw3D.UI.Minigames;
-using Emerge.SDK.Core.Tracking;
-using EmergeHome.Code.Environments;
+using Cloud;
+using Draw3D.Prompts;
+using Draw3D.UI.Minigames;
+using Tracking;
+using Environments;
 using Fusion;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Emerge.Home.Experiments.Draw3D.Minigames
+namespace Draw3D.Minigames
 {
     public class Draw3D_CharadesManager : NetworkBehaviour
     {

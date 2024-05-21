@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Emerge.Home.Experiments.Draw3D.Palettes;
+using Draw3D.Palettes;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D
+namespace Draw3D
 {
     //@TODO: Candidate for deletion... in favor of newer StrokeData variants
     public class Draw3D_Stroke

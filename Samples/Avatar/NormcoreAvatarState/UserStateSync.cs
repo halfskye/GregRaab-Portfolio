@@ -1,8 +1,8 @@
 using UnityEngine;
 using Normal.Realtime;
-using Emerge.Home.Cloud;
+using Cloud;
 
-namespace Emerge.Connect.Avatar
+namespace Avatar
 {
 
     public class UserStateSync : RealtimeComponent<UserStateModel>
@@ -31,17 +31,17 @@ namespace Emerge.Connect.Avatar
 
             if(this.GetComponent<RealtimeView>().isOwnedLocallyInHierarchy)
             {
-                if (!string.IsNullOrEmpty(EmergeCloud.CurrentUser.FirstName))
+                if (!string.IsNullOrEmpty(Cloud.CurrentUser.FirstName))
                 {
-                    SetAvatarName(EmergeCloud.CurrentUser.FirstName);
+                    SetAvatarName(Cloud.CurrentUser.FirstName);
                 }
-                if (!string.IsNullOrEmpty(EmergeCloud.CurrentUser.ImageUrl))
+                if (!string.IsNullOrEmpty(Cloud.CurrentUser.ImageUrl))
                 {
-                    SetImageURL(EmergeCloud.CurrentUser.ImageUrl);
+                    SetImageURL(Cloud.CurrentUser.ImageUrl);
                 }
-                if (!string.IsNullOrEmpty(EmergeCloud.CurrentUser.Id))
+                if (!string.IsNullOrEmpty(Cloud.CurrentUser.Id))
                 {
-                    SetAvatarUserID(EmergeCloud.CurrentUser.Id);
+                    SetAvatarUserID(Cloud.CurrentUser.Id);
                 }
             }    
         }
@@ -56,10 +56,10 @@ namespace Emerge.Connect.Avatar
             {
                 if (currentModel.isFreshModel)
                 {
-                    currentModel.avatarImageURL = EmergeCloud.CurrentUser.ImageUrl;
+                    currentModel.avatarImageURL = Cloud.CurrentUser.ImageUrl;
                     currentModel.isPlayerActive = true;
-                    currentModel.avatarUserID = EmergeCloud.CurrentUser.Id;
-                    currentModel.avatarName = EmergeCloud.CurrentUser.FirstName;
+                    currentModel.avatarUserID = Cloud.CurrentUser.Id;
+                    currentModel.avatarName = Cloud.CurrentUser.FirstName;
                 }
                 UpdateUserState(currentModel.isPlayerActive);
                 UpdateImageURL(currentModel.avatarImageURL);

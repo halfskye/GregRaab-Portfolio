@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Emerge.Connect.Avatar.AvatarAudioProcessor
+namespace Avatar.AvatarAudioProcessor
 {
     public abstract class AvatarAudioProcessor : MonoBehaviour
     {

@@ -1,9 +1,8 @@
-﻿using Emerge.SDK.Core.Tracking;
-using EmergeHome.Code.Core;
+﻿using Tracking;
 using Fusion;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Minigames
+namespace Draw3D.Minigames
 {
     public class Draw3D_MinigamesManager : SimulationBehaviour
     {

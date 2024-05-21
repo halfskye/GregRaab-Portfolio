@@ -1,8 +1,7 @@
-﻿using Emerge.Home.TempUtils;
-using UnityEngine;
+﻿using UnityEngine;
 using static GestureDetectionHandFinder;
 
-namespace Emerge.Home.Experiments.Draw3D.GestureDetection.Gestures
+namespace Draw3D.GestureDetection.Gestures
 {
     public class GestureDetectorFingerToPalmOpenness : BaseGestureDetector
     {

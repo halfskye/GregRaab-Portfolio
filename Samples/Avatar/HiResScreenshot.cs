@@ -2,7 +2,7 @@ using UnityEngine;
 using System;
 using System.IO;
 
-namespace Emerge.Connect.Avatar
+namespace Avatar
 {
     public class HiResScreenshot : MonoBehaviour
     {

@@ -2,7 +2,7 @@ using System;
 using Normal.Realtime;
 using Normal.Realtime.Serialization;
 
-namespace Emerge.Connect.Avatar.ReadyPlayerMe.Models
+namespace Avatar.ReadyPlayerMe.Models
 {
     [RealtimeModel]
     public partial class ReadyPlayerMeAvatarModel

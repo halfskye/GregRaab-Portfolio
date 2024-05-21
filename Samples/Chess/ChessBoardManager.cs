@@ -1,12 +1,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Emerge.Home;
-using EmergeHome.Code.Core;
-using EmergeHome.Code.Environments;
+using Utilities;
+using Environments;
 using Fusion;
 using UnityEngine;
 
-namespace Emerge.Chess
+namespace Chess
 {
     public class ChessBoardManager : MonoBehaviour
     {

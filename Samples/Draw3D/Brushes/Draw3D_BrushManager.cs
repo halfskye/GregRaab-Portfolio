@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Linq;
-using Emerge.Home.Experiments.Draw3D.Palettes;
-using Emerge.Home.TempUtils;
-using Emerge.SDK.Core.Tracking;
+using Draw3D.Palettes;
+using Tracking;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Brushes
+namespace Draw3D.Brushes
 {
     public class Draw3D_BrushManager : MonoBehaviour
     {

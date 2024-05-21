@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Prompts
+namespace Draw3D.Prompts
 {
     [CreateAssetMenu(fileName = "Draw3D_PromptManagerSettings", menuName = "Experiments/Draw3D/New PromptManagerSettings", order = 0)]
     public class Draw3D_PromptManagerSettings : ScriptableObject

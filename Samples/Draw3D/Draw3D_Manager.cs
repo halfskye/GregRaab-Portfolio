@@ -1,19 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using Emerge.Home.Experiments.Draw3D.Brushes;
-using Emerge.Home.Experiments.Draw3D.Displays;
-using Emerge.Home.Experiments.Draw3D.GestureDetection;
-using Emerge.Home.Experiments.Draw3D.Minigames;
-using Emerge.Home.Experiments.Draw3D.Palettes;
-using Emerge.SDK.Core.Tracking;
-using EmergeHome.Code.Core;
-using EmergeHome.Code.Environments;
-using EmergeHome.Code.Utils;
+using Draw3D.Brushes;
+using Draw3D.Displays;
+using Draw3D.GestureDetection;
+using Draw3D.Minigames;
+using Draw3D.Palettes;
+using Tracking;
+using Environments;
+using Utils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 
-namespace Emerge.Home.Experiments.Draw3D
+namespace Draw3D
 {
     public class Draw3D_Manager : MonoBehaviour
     {

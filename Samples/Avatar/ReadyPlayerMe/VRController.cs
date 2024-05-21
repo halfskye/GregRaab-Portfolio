@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.XR;
 
-namespace Emerge.Connect.Avatar.ReadyPlayerMe
+namespace Avatar.ReadyPlayerMe
 {
     public enum HandType
     {

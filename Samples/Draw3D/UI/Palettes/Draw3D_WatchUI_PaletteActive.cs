@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using Emerge.Home.Experiments.Draw3D.Brushes;
-using Emerge.Home.Experiments.Draw3D.Palettes;
+using Draw3D.Brushes;
+using Draw3D.Palettes;
 using TMPro;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.UI
+namespace Draw3D.UI
 {
     public class Draw3D_WatchUI_PaletteActive : MonoBehaviour
     {

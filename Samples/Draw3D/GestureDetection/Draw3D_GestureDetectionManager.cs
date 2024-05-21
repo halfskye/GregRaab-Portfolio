@@ -1,8 +1,8 @@
 ﻿using System;
-using Emerge.Home.Experiments.Draw3D.GestureDetection.Gestures;
+using Draw3D.GestureDetection.Gestures;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.GestureDetection
+namespace Draw3D.GestureDetection
 {
     public class Draw3D_GestureDetectionManager : MonoBehaviour
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Emerge.Chess
+namespace Chess
 {
     public class ChessGutter : MonoBehaviour
     {

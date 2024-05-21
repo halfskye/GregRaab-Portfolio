@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using Emerge.SDK.Core.Tracking;
+using Tracking;
 using UnityEngine;
 
-namespace Emerge.Connect.Avatar.ReadyPlayerMe
+namespace Avatar.ReadyPlayerMe
 {
     [Serializable]
     public class RigMapping

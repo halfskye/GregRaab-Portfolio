@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.GestureDetection.Gestures
+namespace Draw3D.GestureDetection.Gestures
 {
     public class GestureDetectorChangePaletteColor : BaseGestureDetectorDraw3D
     {

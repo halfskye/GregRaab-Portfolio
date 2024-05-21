@@ -1,9 +1,9 @@
-﻿using Emerge.Home.Experiments.Draw3D.Palettes;
+﻿using Draw3D.Palettes;
 using UnityEngine;
 using UnityEngine.UI;
 using XRTK.Extensions;
 
-namespace Emerge.Home.Experiments.Draw3D.UI
+namespace Draw3D.UI
 {
     public class Draw3D_WatchUI_PaletteColor : MonoBehaviour
     {

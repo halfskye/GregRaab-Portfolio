@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Brushes
+namespace Draw3D.Brushes
 {
     [CreateAssetMenu(fileName = "Draw3D_BrushManagerSettings", menuName = "Experiments/Draw3D/New BrushManagerSettings", order = 0)]
     public class Draw3D_BrushManagerSettings : ScriptableObject

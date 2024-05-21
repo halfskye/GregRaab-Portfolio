@@ -1,14 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Emerge.SDK.Core;
-using Emerge.SDK.Core.Tracking;
+using Tracking;
 using Oculus.Interaction;
 using Oculus.Interaction.Input;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using Hand = Oculus.Interaction.Input.Hand;
 
-namespace Emerge.Connect.Avatar.ReadyPlayerMe
+namespace Avatar.ReadyPlayerMe
 {
     // TODO: Hand Rotation offset
     // TODO: Finger Rotation offset

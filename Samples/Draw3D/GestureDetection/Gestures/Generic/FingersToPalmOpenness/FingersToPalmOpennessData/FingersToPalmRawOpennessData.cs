@@ -2,7 +2,7 @@
 using UnityEngine;
 using static GestureDetectionHandFinder;
 
-namespace Emerge.Home.Experiments.Draw3D.GestureDetection.Gestures
+namespace Draw3D.GestureDetection.Gestures
 {
     [CreateAssetMenu(fileName = "FingersToPalmRawOpennessData", menuName = "Experiments/Draw3D/New FingersToPalmRawOpenessData", order = 0)]
     public class FingersToPalmRawOpennessData : ScriptableObject

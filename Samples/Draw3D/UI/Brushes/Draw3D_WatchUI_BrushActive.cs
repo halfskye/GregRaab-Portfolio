@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Emerge.Home.Experiments.Draw3D.Brushes;
+using Draw3D.Brushes;
 using TMPro;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.UI
+namespace Draw3D.UI
 {
     public class Draw3D_WatchUI_BrushActive : MonoBehaviour
     {

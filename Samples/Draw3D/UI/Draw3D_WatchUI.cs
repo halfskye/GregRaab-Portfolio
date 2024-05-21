@@ -1,10 +1,9 @@
-﻿using Emerge.SDK.Core.Tracking;
-using EmergeHome.Code.Core;
-using EmergeHome.Code.Utils;
+﻿using Tracking;
+using Utils;
 using System.Collections;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.UI
+namespace Draw3D.UI
 {
     public class Draw3D_WatchUI : MonoBehaviour
     {

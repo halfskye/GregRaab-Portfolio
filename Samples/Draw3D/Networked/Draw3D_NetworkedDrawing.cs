@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Emerge.SDK.Core.Tracking;
+using Tracking;
 using Fusion;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D
+namespace Draw3D
 {
     public class Draw3D_NetworkedDrawing : NetworkBehaviour
     {

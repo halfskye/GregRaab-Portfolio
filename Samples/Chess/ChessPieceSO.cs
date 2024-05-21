@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Emerge.Chess
+namespace Chess
 {
     [CreateAssetMenu(fileName = "NewChessPiece", menuName = "ChessPrototype/NewChessPiece")]
     public class ChessPieceSO : ScriptableObject

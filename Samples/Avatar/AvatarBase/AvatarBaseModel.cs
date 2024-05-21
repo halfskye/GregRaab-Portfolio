@@ -2,7 +2,7 @@ using System;
 using Normal.Realtime;
 using Normal.Realtime.Serialization;
 
-namespace Emerge.Connect.Avatar.Models
+namespace Avatar.Models
 {
     [RealtimeModel]
     public partial class AvatarBaseModel

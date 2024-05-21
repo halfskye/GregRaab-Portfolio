@@ -1,8 +1,8 @@
 ﻿using System;
-using Emerge.Home.Experiments.Draw3D.GestureDetection;
+using Draw3D.GestureDetection;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Palettes
+namespace Draw3D.Palettes
 {
     //@TODO: Index of Palettes available, controlled by a ScriptableObject?
     public class Draw3D_PaletteManager : MonoBehaviour

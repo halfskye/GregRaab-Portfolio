@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Emerge.Home.Experiments.Draw3D.Brushes;
-using Emerge.SDK.Core.Tracking;
+using Draw3D.Brushes;
+using Tracking;
 using Fusion;
 using Vector3 = UnityEngine.Vector3;
 
-namespace Emerge.Home.Experiments.Draw3D
+namespace Draw3D
 {
     public class Draw3D_NetworkedDrawingDataPage : NetworkBehaviour
     {

@@ -1,13 +1,12 @@
 ﻿using System.Collections.Generic;
-using Emerge.Home.Experiments.Draw3D.Minigames;
-using Emerge.SDK.Core.Tracking;
-using EmergeHome.Code.Core;
+using Draw3D.Minigames;
+using Tracking;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Assertions;
 using XRTK.Extensions;
 
-namespace Emerge.Home.Experiments.Draw3D.UI.Minigames
+namespace Draw3D.UI.Minigames
 {
     public class Draw3D_WatchUI_Charades : MonoBehaviour
     {

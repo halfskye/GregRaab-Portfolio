@@ -1,6 +1,6 @@
 using UnityEngine;
 using DG.Tweening;
-namespace Emerge.Chess
+namespace Chess
 {
     public class ChessBoardButtonsUI : MonoBehaviour
     {

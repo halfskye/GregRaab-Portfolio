@@ -2,7 +2,7 @@
 using UnityEngine;
 using XRTK.Extensions;
 
-namespace Emerge.Home.Experiments.Draw3D.UI.Minigames
+namespace Draw3D.UI.Minigames
 {
     public class Draw3D_WatchUI_Prompt : MonoBehaviour
     {

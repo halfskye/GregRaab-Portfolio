@@ -1,9 +1,7 @@
-using Emerge.SDK.Core.Tracking;
-using EmergeHome.Code.TempUtils;
-using EmergeHome.TempUtils;
+using Tracking;
 using UnityEngine;
 
-namespace Emerge.Chess
+namespace Chess
 {
     [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
     public class ChessPiece : MonoBehaviour

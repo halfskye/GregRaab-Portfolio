@@ -1,7 +1,7 @@
-﻿using Emerge.Connect.Normcore;
+﻿using Normcore;
 using UnityEngine;
 
-namespace Emerge.Connect.Avatar
+namespace Avatar
 {
     [RequireComponent(typeof(AudioSource))]
     public class PlayerJoinNotifier : MonoBehaviour

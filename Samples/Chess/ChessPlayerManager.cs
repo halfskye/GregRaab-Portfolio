@@ -1,8 +1,7 @@
-using Emerge.Home;
-using EmergeHome.Code.Core;
+using Utilities;
 using UnityEngine;
 
-namespace Emerge.Chess
+namespace Chess
 {
     public class ChessPlayerManager : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 ﻿using Oculus.Avatar2;
 
-namespace Emerge.Connect.Avatar.AvatarAudioProcessor
+namespace Avatar.AvatarAudioProcessor
 {
     public class OvrAvatarAudioProcessor : AvatarAudioProcessor
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Palettes
+namespace Draw3D.Palettes
 {
     public class PaletteDisplay : MonoBehaviour
     {

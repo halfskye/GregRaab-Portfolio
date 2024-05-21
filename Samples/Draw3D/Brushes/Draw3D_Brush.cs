@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Brushes
+namespace Draw3D.Brushes
 {
     [CreateAssetMenu(fileName = "Draw3D_Brush", menuName = "Experiments/Draw3D/New Brush", order = 0)]
     public class Draw3D_Brush : ScriptableObject

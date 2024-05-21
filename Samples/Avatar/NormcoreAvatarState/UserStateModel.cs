@@ -1,6 +1,6 @@
 using Normal.Realtime;
 
-namespace Emerge.Connect.Avatar
+namespace Avatar
 {
     [RealtimeModel]
     public partial class UserStateModel

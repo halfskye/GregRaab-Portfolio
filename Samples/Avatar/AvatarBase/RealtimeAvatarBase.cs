@@ -1,12 +1,12 @@
-﻿using Emerge.Connect.Avatar.Models;
-using Emerge.Connect.Scripts.Utils;
-using Emerge.Home.Cloud;
-using Emerge.SDK.Core.Tracking;
+﻿using Avatar.Models;
+using Scripts.Utils;
+using Cloud;
+using Tracking;
 using Normal.Realtime;
 using Oculus.Avatar2;
 using UnityEngine;
 
-namespace Emerge.Connect.Avatar
+namespace Avatar
 {
     public class RealtimeAvatarBase : RealtimeComponent<AvatarBaseModel>
     {
@@ -157,7 +157,7 @@ namespace Emerge.Connect.Avatar
         private void SetAvatarActive(bool isActive)
         {
             SetAvatarVisibility(isActive && AvatarManager.Instance.IsAvatarVisibiltyEnabled);
-            avatarInactiveStateManager.SetAvatarInactiveUiActive(!isActive && !EmergeCloud.IsGuestMode && AvatarManager.Instance.IsAvatarVisibiltyEnabled);
+            avatarInactiveStateManager.SetAvatarInactiveUiActive(!isActive && !Cloud.IsGuestMode && AvatarManager.Instance.IsAvatarVisibiltyEnabled);
         }
 
         protected virtual void SetAvatarVisibility(bool isVisible)

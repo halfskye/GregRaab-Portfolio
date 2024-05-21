@@ -1,13 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Emerge.Home;
-using Emerge.Home.Analytics;
-using EmergeHome.Code.Environments;
+using Analytics;
+using Environments;
 using Fusion;
 using UnityEngine;
 
-namespace Emerge.Chess
+namespace Chess
 {
     /// <summary>
     /// The ChessPlayer class represent the player's understanding of the ChessBoard & ChessPieces state.

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Displays
+namespace Draw3D.Displays
 {
     public class Draw3D_BaseDisplay : MonoBehaviour
     {

@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Emerge.Home;
 using Fusion;
 using UnityEngine;
 
-namespace Emerge.Chess
+namespace Chess
 {
     public class ChessBoard : NetworkBehaviour
     {

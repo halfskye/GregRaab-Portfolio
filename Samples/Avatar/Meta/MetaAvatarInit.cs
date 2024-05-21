@@ -2,7 +2,7 @@
 using Oculus.Platform;
 using UnityEngine;
 
-namespace Emerge.Connect.Avatar.Meta
+namespace Avatar.Meta
 {
     public class MetaAvatarInit : MonoBehaviour
     {

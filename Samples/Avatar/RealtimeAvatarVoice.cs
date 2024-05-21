@@ -10,7 +10,7 @@ using System.Collections;
 using UnityEngine.Android;
 #endif
 
-namespace Emerge.Connect.Avatar {
+namespace Avatar {
     [DefaultExecutionOrder(-1)] // Make sure our Update() runs before the default to ensure _microphoneDbLevel has been calculated for CalculateVoiceVolume()
     public class RealtimeAvatarVoice : RealtimeComponent<RealtimeAvatarVoiceModel> {
         public  float voiceVolume { get; private set; }

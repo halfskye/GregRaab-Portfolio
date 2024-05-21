@@ -1,7 +1,6 @@
-using EmergeHome.Code.TempUtils;
 using UnityEngine;
 
-namespace Emerge.Chess
+namespace Chess
 {
     [CreateAssetMenu(fileName = "NewChessBoardSettings", menuName = "ChessPrototype/NewChessBoardSettings")]
     public class ChessBoardSettingsSO : ScriptableObject

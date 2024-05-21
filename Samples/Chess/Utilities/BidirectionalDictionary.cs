@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Emerge.Home
+namespace Utilities
 {
     public class BidirectionalDictionary<TFirst, TSecond>
     {

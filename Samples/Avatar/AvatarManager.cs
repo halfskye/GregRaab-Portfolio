@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using Emerge.Connect.Context;
-using Emerge.Connect.Lifecycle;
-using Emerge.Connect.Locomotion;
-using Emerge.Connect.Normcore;
-using Emerge.Connect.Scripts.Utils;
-using Emerge.Connect.States;
+using Context;
+using Lifecycle;
+using Locomotion;
+using Normcore;
+using Utils;
+using States;
 using Normal.Realtime;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.Serialization;
-using static Emerge.Connect.Scripts.Utils.DebugLogUtilities;
+using static Scripts.Utils.DebugLogUtilities;
 using Object = UnityEngine.Object;
 
-namespace Emerge.Connect.Avatar
+namespace Avatar
 {
     public class AvatarManager : MonoBehaviour
     {

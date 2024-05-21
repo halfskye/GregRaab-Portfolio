@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
-using Emerge.Connect.Avatar.Models;
-using Emerge.Connect.Scripts.Utils;
-using Emerge.SDK.Core.Tracking;
+using Avatar.Models;
+using Scripts.Utils;
+using Tracking;
 using Oculus.Avatar2;
 using ReadyPlayerMe.Core;
 using Sirenix.Serialization;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
 
-namespace Emerge.Connect.Avatar.ReadyPlayerMe
+namespace Avatar.ReadyPlayerMe
 {
     public class RealtimeReadyPlayerMeAvatar : RealtimeAvatarBase
     {

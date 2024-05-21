@@ -1,7 +1,7 @@
 using UnityEngine;
-using Emerge.Connect.UI;
+using UI;
 
-namespace Emerge.Connect.Avatar.Meta
+namespace Avatar.Meta
 {
     public class PhotoAvatarManager : MonoBehaviour
     {

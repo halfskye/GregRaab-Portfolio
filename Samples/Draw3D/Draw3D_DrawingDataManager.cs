@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using Emerge.Home.Experiments.Draw3D.Brushes;
-using Emerge.Home.Experiments.Draw3D.Palettes;
+using Draw3D.Brushes;
+using Draw3D.Palettes;
 using UnityEngine;
 using Color = UnityEngine.Color;
 
 //@TODO: Separate all these types into separate/appropriate files.
-namespace Emerge.Home.Experiments.Draw3D
+namespace Draw3D
 {
     public interface Draw3D_IStrokeData
     {

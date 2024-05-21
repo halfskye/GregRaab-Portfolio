@@ -1,11 +1,8 @@
-﻿using Emerge.SDK.Core;
-using Emerge.SDK.Core.Tracking;
-using EmergeHome.Code.Core;
-using EmergeHome.Code.TempUtils;
-using EmergeHome.Code.Utils;
+﻿using Tracking;
+using Utils;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Brushes
+namespace Draw3D.Brushes
 {
     public class Draw3D_Pen : MonoBehaviour
     {

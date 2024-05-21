@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Emerge.Chess
+namespace Chess
 {
     public class ChessGutterSquare : MonoBehaviour
     {

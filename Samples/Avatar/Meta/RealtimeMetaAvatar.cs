@@ -1,6 +1,6 @@
-using Emerge.Connect.Avatar.AvatarAudioProcessor;
-using Emerge.Connect.Avatar.Models;
-using Emerge.Connect.Scripts.Utils;
+using Avatar.AvatarAudioProcessor;
+using Avatar.Models;
+using Scripts.Utils;
 using Oculus.Avatar2;
 using Oculus.Platform;
 using Unity.Collections;
@@ -8,7 +8,7 @@ using UnityEngine;
 using static Oculus.Avatar2.OvrAvatarEntity;
 using CAPI = Oculus.Avatar2.CAPI;
 
-namespace Emerge.Connect.Avatar.Meta
+namespace Avatar.Meta
 {
     public class RealtimeMetaAvatar : RealtimeAvatarBase
     {

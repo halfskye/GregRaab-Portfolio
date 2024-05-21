@@ -1,13 +1,12 @@
-using Emerge.Home.Cloud;
+using Cloud;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
 using Normal.Realtime;
 using System.Threading.Tasks;
-using Emerge.SDK.Core;
 
-namespace Emerge.Connect.Avatar
+namespace Avatar
 {
     public class AvatarInactiveStateManager : MonoBehaviour
     {

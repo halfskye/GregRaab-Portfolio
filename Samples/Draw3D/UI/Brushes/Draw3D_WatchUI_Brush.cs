@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Emerge.Home.Experiments.Draw3D.UI
+namespace Draw3D.UI
 {
     public class Draw3D_WatchUI_Brush : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Prompts
+namespace Draw3D.Prompts
 {
     public class Draw3D_PromptManager : MonoBehaviour
     {

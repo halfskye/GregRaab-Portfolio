@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Emerge.Home.TempUtils;
-using Emerge.SDK.Core.Tracking;
-using EmergeHome.Code.Core;
+using Tracking;
 using UnityEngine;
 using static GestureDetectionHandFinder;
 
-namespace Emerge.Home.Experiments.Draw3D.GestureDetection.Gestures
+namespace Draw3D.GestureDetection.Gestures
 {
     public class BaseGestureDetector : MonoBehaviour
     {

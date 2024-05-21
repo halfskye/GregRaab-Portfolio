@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Emerge.Home
+namespace Utilities
 {
     public class BidirectionalDictionaryUnique<TFirst, TSecond> : BidirectionalDictionary<TFirst, TSecond>
     {

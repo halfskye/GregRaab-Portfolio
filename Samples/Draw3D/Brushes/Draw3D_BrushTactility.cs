@@ -1,9 +1,8 @@
-﻿using Emerge.Home.Experiments.Draw3D.GestureDetection;
-using Emerge.SDK.Core;
-using Emerge.SDK.Core.Tracking;
+﻿using Draw3D.GestureDetection;
+using Tracking;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Brushes
+namespace Draw3D.Brushes
 {
     [CreateAssetMenu(fileName = "Draw3D_BrushTactility", menuName = "Experiments/Draw3D/New BrushTactility", order = 0)]
     public class Draw3D_BrushTactility : ScriptableObject

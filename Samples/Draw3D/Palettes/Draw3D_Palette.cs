@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.Palettes
+namespace Draw3D.Palettes
 {
     [CreateAssetMenu(fileName = "Draw3D_Palette", menuName = "Experiments/Draw3D/New Palette", order = 0)]
     public class Draw3D_Palette : ScriptableObject

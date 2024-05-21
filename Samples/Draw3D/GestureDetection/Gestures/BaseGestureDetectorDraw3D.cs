@@ -1,7 +1,6 @@
-﻿using EmergeHome.Code.Core;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Emerge.Home.Experiments.Draw3D.GestureDetection.Gestures
+namespace Draw3D.GestureDetection.Gestures
 {
     public class BaseGestureDetectorDraw3D : BaseGestureDetector
     {
