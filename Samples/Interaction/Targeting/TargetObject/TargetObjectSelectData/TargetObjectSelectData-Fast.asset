@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f4696e991d4aa6b13813c94200a892, type: 3}
+  m_Name: TargetObjectSelectData-Fast
+  m_EditorClassIdentifier: 
+  focusTime: 1.5
+  unfocusTime: 0.5
+  focusFX: {fileID: 383848437447252581, guid: d95b93944eceb674ba9ff783dfd3a6a9, type: 3}
+  unfocusFX: {fileID: 383848437447252581, guid: 9b2965d2cafb91847992842d42bf4880,
+    type: 3}
+  selectFX: {fileID: 383848437447252581, guid: 1d674be7e7afc724d98a1795bd08ff60, type: 3}
